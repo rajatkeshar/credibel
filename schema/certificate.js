@@ -16,9 +16,8 @@ module.exports = {
           maxLength: 256
         },
         college: {
-          type: "number",
-          minLength: 10,
-          maxLength: 15
+          type: "string",
+          maxLength: 256
         },
         subject: {
           type: "string",
